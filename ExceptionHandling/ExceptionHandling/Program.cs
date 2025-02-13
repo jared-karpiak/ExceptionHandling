@@ -105,6 +105,7 @@
                     // adding  "new Exception(customErrorMessage)" we can add our custom error message
                     if (userAge < 0)
                         throw new Exception("You can't be negative years old.");
+                    validInput = true;
                 }
                 catch (Exception ex)
                 {
